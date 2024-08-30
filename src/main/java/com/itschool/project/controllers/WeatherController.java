@@ -1,13 +1,12 @@
 package com.itschool.project.controllers;
 
-import com.itschool.project.models.Weather;
+import com.itschool.project.models.entities.Weather;
 import com.itschool.project.services.WeatherService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.imageio.IIOException;
 import java.io.IOException;
 
 @RestController

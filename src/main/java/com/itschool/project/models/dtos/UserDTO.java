@@ -1,13 +1,12 @@
-package com.itschool.project.models;
+package com.itschool.project.models.dtos;
 
 import lombok.Data;
 
-import java.util.UUID;
+
 
 @Data
-public class User {
-
-    private UUID id;
+public class UserDTO {
+    private long id;
     private String firstName;
     private String lastName;
     private String email;
